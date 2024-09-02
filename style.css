@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* 1st background */
+.background-pattern-desktop-top img {
+  width: 100%;
+}
+/* 2nd background */
+.background-color-buttom {
+  background-color: hsl(275, 100%, 97%);
+  padding: 12%;
+  height: 100%;
+  position: relative;
+}
+/* border-centerbox */
+.sec-box-design {
+  background-color: hsl(0, 0%, 100%);
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 30%;
+  padding: 3rem;
+  margin-inline: auto;
+  gap: 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-box-design {
+  display: flex;
+  gap: 25px;
+  justify-content: left;
+  /* padding: 2rem; */
+}
+.center-box-design img {
+  width: 35px;
+}
+.center-box-design h1 {
+  font-size: 50px;
+  color: hsl(292, 42%, 14%);
+}
+.sec-box-design2 {
+  display: flex;
+  gap: 9%;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
+  font-size: 19px;
+}
+.text-per-section:hover {
+  color: hsl(293, 77%, 61%);
+  cursor: pointer;
+}
+.sec-box-design2 img {
+  width: 28px;
+}
+
+.pa-ra-grah {
+  color: hsl(292, 16%, 49%);
+  font-size: 17px;
+}
+.text-per-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-weight: 600; */
+  font-size: 17px;
+}
+
+hr {
+  display: block;
+  height: 0.2px;
+  border: 0;
+  border-top: 1px solid #f5efef;
+}
